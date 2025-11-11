@@ -12,8 +12,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/addkinkun" element={<AddKinkun />} />
-          <Route path="/editkinkun" element={<EditKinkun />} />
-          <Route path="/showallkinkun" element={<ShowAllKinkun />} />
+          <Route path="/editkinkun/:id" element={<EditKinkun />} />
+          <Route path="/showallkinkun/" element={<ShowAllKinkun />} />
         </Routes>
       </BrowserRouter>
     </>
